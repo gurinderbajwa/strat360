@@ -49,6 +49,7 @@
 	= back to top
 	-------------------------------------------*/
 	$(window).scroll(function () {
+
 		if ($(this).scrollTop() > 500) {
 			$('.xb-backtotop').addClass('active');
 		} else {
@@ -894,6 +895,7 @@ function gotoLink(link) {
 	$(".xb-menu-primary li").removeClass("active");
 
 	$(".m-"+link).addClass("active");
+	$(".xb-menu-close").click();
 	// Using jQuery's animate() method to add smooth page scroll
 	// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 	if(link=="home"){
