@@ -9995,7 +9995,6 @@ abbr[title] {
 ======================================================**/
 
 .project-section {
-  background: #0F110F;
   padding: 110px 0 90px;
 }
 
@@ -10041,6 +10040,7 @@ abbr[title] {
   text-align: center;
   opacity: 0;
   transition: .5s;
+  background: none !important;
 }
 .project-button .icon img {
   width: inherit;
