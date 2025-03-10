@@ -215,12 +215,13 @@
 			headerAnimation.from($('.overlay-menu .left-area'), { y:'100vh' },0.1);
 			headerAnimation.from($('.overlay-menu .right-area'), { y:'-100vh' }, 0.1);
 			headerAnimation.from($('.overlay-menu .right-area ul'), {  autoAlpha:0, stagger:.1 }, 0.5);
-			headerAnimation.from($('.overlay-menu nav li:not(.overlay-menu nav ul li ul li)'), { stagger:.1, y: 30, autoAlpha:0, ease: "Expo.easeInOut", }, 0.5);
-			headerAnimation.from($('.overlay-menu nav li:not(.overlay-menu nav ul li ul li)'), { 'clearProps': 'all', delay:1.3, ease: "Expo.easeInOut", }, 0.5);
+			headerAnimation.from($('.overlay-menu nav li:not(.overlay-menu nav ul li ul li)'), { stagger:.1, y: 30, autoAlpha:0, ease: "Expo.easeInOut", }, 0.25);
+			headerAnimation.from($('.overlay-menu nav li:not(.overlay-menu nav ul li ul li)'), { 'clearProps': 'all', delay:0.5, ease: "Expo.easeInOut", }, 0.25);
 	
 	
 		$('header .burger-menu, .overlay-menu .close').on('click', function(){
-		headerAnimation.reversed() ? headerAnimation.play(): headerAnimation.reverse();
+			document.body.style.overflow = 'hidden';
+			headerAnimation.reversed() ? headerAnimation.play(): headerAnimation.reverse();
 		});
 	
 	
@@ -232,9 +233,9 @@
 		var overlay_animation = gsap.timeline({yoyo: false,reversed: true});
 	
 		overlay_animation.pause();
-		overlay_animation.to( $(this).closest('ul').children('li').children('a'), { stagger:.1, autoAlpha:0, y:-50,  'pointer-events': 'none',  ease: Power3.easeOut  } )
+		overlay_animation.to( $(this).closest('ul').children('li').children('a'), { stagger:.1, autoAlpha:0, y:-50,  'pointer-events': 'none',  ease: Power2.easeOut  } )
 		overlay_animation.to($(this).next('ul'),{ 'z-index':'10', 'pointer-events': 'all' }),
-		overlay_animation.from($(this).next('ul').children('li').children('a'), {stagger:.1, autoAlpha:0, y:30,  ease: Power3.easeOut });
+		overlay_animation.from($(this).next('ul').children('li').children('a'), {stagger:.1, autoAlpha:0, y:30,  ease: Power2.easeOut });
 	
 		this.animation = overlay_animation;
 	
@@ -912,5 +913,27 @@ function gotoLink(link) {
 	}
 }
 
+async function fetchHtmlAsText(url) {
+    return await (await fetch(url)).text();
+}
 
+async function renderServices(){
+	//const contentDiv = document.getElementById("render-div");
+    //contentDiv.innerHTML = await fetchHtmlAsText("Digital-stratergy.html");
+	ScrollSmoother.create({
+		wrapper: '#smooth-wrapper',
+		content: '#smooth-content',
+		smooth: 1,
+	  });
+	$('#popup-trigger').click();
+	//createScroll();
+}
+
+function createScroll(){
+	ScrollSmoother.create({
+		wrapper: '#smooth-wrapper',
+		content: '#smooth-content',
+		smooth: 1,
+	  });
+}
 

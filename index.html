@@ -67,21 +67,22 @@
                         <nav class="main-menu collapse navbar-collapse">
                             <ul class="header-menu-scroll-go-to">
                                 <li class="m-home active" onclick="gotoLink('home')">
-                                    <a href="#"><span>Link 1</span></a>
+                                    <a href="#"><span>Home</span></a>
                                 </li>
                                 <li class="m-services" onclick="gotoLink('services')">
-                                    <a href="#"><span>Link 2</span></a>
+                                    <a href="#"><span>Services</span></a>
                                 </li>
                                 <li class="m-project-section" onclick="gotoLink('project-section')">
-                                    <a href="#"><span>Link 3</span></a>
+                                    <a href="#"><span>Project/Work</span></a>
                                 </li>
                                 <li class="m-marquee" onclick="gotoLink('marquee')">
-                                    <a href="#"><span>Link 4</span></a>
+                                    <a href="#"><span>Our Clients</span></a>
                                 </li>
-                                <li class="m-footer" onclick="gotoLink('footer')">
-                                    <a href="#"><span>Contact</span></a>
+                                <li class="m-footer">
+                                    <a href="contact.html"><span>Contact</span></a>
                                 </li>
                             </ul>
+                            
                         </nav>
                         <div class="xb-header-wrap">
                             <div class="xb-header-menu">
@@ -125,9 +126,78 @@
                 </div>
             </div>
         </div>
+        <a href="javascript:void(0);" id="popup-trigger" class="header-bar burger-menu d-none" style="display: none !important;">
+            ddd
+        </a>
     </header>
+    
     <!-- header end -->
-
+     <!-- overlay menu start -->
+     <div class="overlay-menu overlay-menu-three">
+        <div class="close">
+            <div class="xb-close"></div>
+        </div>
+        <div class="row overlay-wrap">
+            <div class="col-xl-12 col-md-7 left-area">
+                <div id="smooth-wrapper">
+                    <div id="smooth-content">
+                        <div class="portfolio pt-135 pb-150">
+                            <div class="container" id="render-div">
+                                <div class="row align-items-end mb-20">
+                                    <div class="col-lg-5">
+                                        <div class="section-title mb-30">
+                                            <span class="sub-title wow fadeInRight">Core Services</span>
+                                            <h3 class="title">Discover Our <br> <span>Capabilities</span></h3>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row grid g-150 mt-none-60">
+                                    <div class="col-lg-6 col-md-6 grid-item cat1 cat2 cat4">
+                                        <div class="portfolio-item xb-img-reveal-item mt-60" data-cat="3d Artiest"
+                                        data-title="Finance & Banking website" data-fx="1">
+                                            <div class="xbImage__hover image-1">
+                                                <a href="project-single.html">
+                                                    <img src="assets/img/portfolio/img_01.jpg" alt="img">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 grid-item cat3 cat2 cat4">
+                                        <div class="portfolio-item xb-img-reveal-item mt-60" data-cat="3d Artiest"
+                                        data-title="Finance & Banking website" data-fx="1">
+                                            <div class="xbImage__hover image-2">
+                                                <a href="project-single.html"><img src="assets/img/portfolio/img_02.jpg" alt="img"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 grid-item cat1 cat2 cat4">
+                                        <div class="portfolio-item xb-img-reveal-item mt-60" data-cat="3d Artiest"
+                                        data-title="Finance & Banking website" data-fx="1">
+                                            <div class="xbImage__hover image-3">
+                                                <a href="project-single.html"><img src="assets/img/portfolio/img_03.jpg" alt="img"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 grid-item cat4 cat1 cat3">
+                                        <div class="portfolio-item xb-img-reveal-item mt-60" data-cat="3d Artiest"
+                                        data-title="Finance & Banking website" data-fx="1">
+                                            <div class="xbImage__hover image-4">
+                                                <a href="project-single.html"><img src="assets/img/portfolio/img_04.jpg" alt="img"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               
+            </div>
+         
+        </div>
+    </div>
+    <!-- overlay menu end -->
     <!-- main area start  -->
     <main>
         <!-- hero section start  -->
@@ -150,7 +220,6 @@
             </div>
         </section>
         <!-- hero section end  -->
-
         <!-- about section start  -->
         <section class="services"> 
             <div class="container pos-rel">
@@ -223,538 +292,138 @@
                 </div>
                 <div class="about-icon"><img src="assets/img/icon/about_icon.png" alt=""></div>
             </div>
-
         </section>
-        <!-- counter section start  -->
-        <!-- <section class="counter z-3 pt-50 pb-90" data-bg-color="#C4EF17">
-            <div class="container">
-                <div class="counter-wrap ul_li_between">
-                    <div class="xb-couter-box ul_li">
-                        <div class="xb-item--icon">
-                            <img src="assets/img/icon/coun_01.svg" alt="">
-                        </div>
-                        <div class="xb-item--holder">
-                            <h3 class="xb-item--title xb-odm"><span class="xbo" data-count="20">00</span><span class="suffix">K</span></h3>
-                            <p class="xb-item--content">Project Completed</p>
-                        </div>
-                    </div>
-                    <div class="xb-couter-box ul_li">
-                        <div class="xb-item--icon">
-                            <img src="assets/img/icon/coun_02.svg" alt="">
-                        </div>
-                        <div class="xb-item--holder">
-                            <h3 class="xb-item--title"><span class="xbo" data-count="24">00</span></h3>
-                            <p class="xb-item--content">Team Member</p>
-                        </div>
-                    </div>
-                    <div class="xb-couter-box ul_li">
-                        <div class="xb-item--icon">
-                            <img src="assets/img/icon/coun_03.svg" alt="">
-                        </div>
-                        <div class="xb-item--holder">
-                            <h3 class="xb-item--title"><span class="xbo" data-count="92">00</span></h3>
-                            <p class="xb-item--content">Awards Winning</p>
-                        </div>
-                    </div>
-                    <div class="xb-couter-box ul_li">
-                        <div class="xb-item--icon">
-                            <img src="assets/img/icon/coun_04.svg" alt="">
-                        </div>
-                        <div class="xb-item--holder">
-                            <h3 class="xb-item--title"><span class="xbo" data-count="26">00</span><span class="suffix">K</span></h3>
-                            <p class="xb-item--content">Happy Customer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        
-        <!-- service area two end  -->
-        <section class="inner-service-two z-3 pt-150">
-            <div class="container">
-                <div class="row align-items-end mb-80">
-                    <div class="col-lg-6">
-                        <div class="section-title mb-30">
-                            <span class="sub-title wow fadeInRight" data-wow-duration=".7s">WHAT WE OFFER</span>
-                            <h3 class="title xb-split-text split-in-right">Unlock Revenue Growth for Your <span>Business</span></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="service-slider">
+        <!-- service details slider area two end  -->
+        <section class="service_details-slider z-3 pt-130">
+            <div class="service-gallery-slider swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide xb-service2">
-                        <div class="xb-item--inner">
-                            <div class="xb-item--image">
-                                <img src="assets/img/searvice/service01.jpg" alt="">
-                                <div class="xb-item--content">
-                                    <h2 class="xb-item--title"><a href="#">Mobile Solutions</a></h2>
-                                    <span class="xb-item--sub-title">Full Stuck Developer</span>
-                                </div>
-                            </div>
-                            <a class="xb-overlay xb-overlay-link" href="#"></a>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_01.jpg" alt="">
                         </div>
                     </div>
-                    <div class="swiper-slide xb-service2">
-                        <div class="xb-item--inner">
-                            <div class="xb-item--image">
-                                <img src="assets/img/searvice/service02.jpg" alt="">
-                                <div class="xb-item--content">
-                                    <h2 class="xb-item--title"><a href="#">Mobile Solutions</a></h2>
-                                    <span class="xb-item--sub-title">Full Stuck Developer</span>
-                                </div>
-                            </div>
-                            <a class="xb-overlay xb-overlay-link" href="#"></a>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_02.jpg" alt="">
                         </div>
                     </div>
-                    <div class="swiper-slide xb-service2">
-                        <div class="xb-item--inner">
-                            <div class="xb-item--image">
-                                <img src="assets/img/searvice/service03.jpg" alt="">
-                                <div class="xb-item--content">
-                                    <h2 class="xb-item--title"><a href="#">Mobile Solutions</a></h2>
-                                    <span class="xb-item--sub-title">Full Stuck Developer</span>
-                                </div>
-                            </div>
-                            <a class="xb-overlay xb-overlay-link" href="#"></a>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_03.jpg" alt="">
                         </div>
                     </div>
-                    <div class="swiper-slide xb-service2">
-                        <div class="xb-item--inner">
-                            <div class="xb-item--image">
-                                <img src="assets/img/searvice/service04.jpg" alt="">
-                                <div class="xb-item--content">
-                                    <h2 class="xb-item--title"><a href="#">Mobile Solutions</a></h2>
-                                    <span class="xb-item--sub-title">Full Stuck Developer</span>
-                                </div>
-                            </div>
-                            <a class="xb-overlay xb-overlay-link" href="#"></a>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_04.jpg" alt="">
                         </div>
                     </div>
-                    <div class="swiper-slide xb-service2">
-                        <div class="xb-item--inner">
-                            <div class="xb-item--image">
-                                <img src="assets/img/searvice/service01.jpg" alt="">
-                                <div class="xb-item--content">
-                                    <h2 class="xb-item--title"><a href="#">Mobile Solutions</a></h2>
-                                    <span class="xb-item--sub-title">Full Stuck Developer</span>
-                                </div>
-                            </div>
-                            <a class="xb-overlay xb-overlay-link" href="#"></a>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_05.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="xb-item--image">
+                            <img src="assets/img/searvice/sg_01.jpg" alt="">
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
+            
         </section>
-        <!-- service area two end  -->
-          <!-- service start -->
-        <section class="service pt-150 pos-rel">
-            <div class="xb-sec-title-border border-white xb_trigger"></div>
-            <div class="container">
-                <div class="section-title section-title--two section-title--white mb-50">
-                    <span class="sub-title wow fadeInRight" data-wow-duration=".7s">Services</span>
-                    <div class="section-title__inner pos-rel">
-                        <h3 class="title xb-split-text split-in-right">Projects</h3>
-                    </div>
-                 </div>
-                <div class="service-wrapper ul_li wow fadeInUp" data-wow-duration=".7s">
-                    <div class="xb-item--shape">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="1290" height="479" viewBox="0 0 1290 479" fill="none" preserveAspectRatio="none">
-                            <path d="M55.8579 11.6972C59.0513 4.59071 66.1822 0 73.9732 0H1224.6C1233.11 0 1240.72 5.43591 1243.45 13.4977C1304.19 192.576 1306.74 296.292 1243.69 466.083C1240.81 473.85 1233.35 479 1225.06 479H74.6973C66.539 479 59.1702 474.001 56.1664 466.415C-11.5557 295.406 -25.4489 192.635 55.8579 11.6972Z" fill="url(#srv_bg_stroke)"/>
-                            <path d="M56.3139 11.9021C59.4262 4.97613 66.3781 0.5 73.9732 0.5H1224.6C1232.9 0.5 1240.32 5.80011 1242.98 13.6583C1273.34 103.174 1289.15 173.815 1289.49 243.276C1289.84 312.733 1274.73 381.047 1243.22 465.909C1240.41 473.479 1233.14 478.5 1225.06 478.5H74.6973C66.7437 478.5 59.5595 473.625 56.6312 466.231C22.7761 380.741 2.39907 312.363 0.62616 242.766C-1.14654 173.179 15.6799 102.328 56.3139 11.9021Z" stroke="url(#srv_bg_shape)" stroke-opacity="0.1"/>
-                            <defs>
-                                <linearGradient id="srv_bg_stroke" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#060613"/>
-                                    <stop offset="1" stop-color="#151521"/>
-                                </linearGradient>
-                                <linearGradient id="srv_bg_shape" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="white"/>
-                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                </linearGradient>
-                            </defs> 
-                          </svg>
-                    </div>
-                    <div class="xb-item--shape-border">
-                        <img src="assets/img/shape/srv_shape.png" alt="">
-                    </div>
-                    <div class="xb-item--holder">
-                        <div class="service-left">
-                            <h2 class="xb-item--title border-effect"><a href="#">Art of Living
-                                </a></h2>
-                            <div class="xb-item--content">Reducing lead acquisition rates by 75% for a global brand in the US</div>
-                            <a href="#" class="thm-btn thm-btn--anim">
-                                <span class="btn-shape">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="203" height="68" viewBox="0 0 203 68" fill="none" preserveAspectRatio="none">
-                                    <path d="M5.16873 4.91568C5.692 2.06786 8.17444 0 11.0699 0H192.577C195.559 0 198.089 2.19074 198.515 5.14266L201.893 28.5403C202.324 31.5288 202.331 34.5632 201.912 37.5534L198.497 61.9251C198.081 64.8882 195.547 67.0925 192.555 67.0925H11.0966C8.18925 67.0925 5.70023 65.0081 5.18979 62.1459L1.01714 38.7489C0.344515 34.9773 0.354618 31.1156 1.04697 27.3476L5.16873 4.91568Z" fill="#C4EF17"></path>
-                                  </svg>
-                                </span>
-                                <div class="btn-anim-wrap">
-                                    <span class="button-text">See how we did it</span>
-                                    <span class="button-text">See how we did it</span>
-                                </div>
-                                <span class="icon"><img src="assets/img/icon/arrow_right3.svg" alt=""></span>
-                            </a>
-                        </div>
-                        <div class="service-right">
-                            <img src="assets/img/searvice/srv_01.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="service-wrapper ul_li wow fadeInUp" data-wow-duration=".7s">
-                    <div class="xb-item--shape">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1290" height="479" viewBox="0 0 1290 479" fill="none" preserveAspectRatio="none">
-                            <path d="M55.8579 11.6972C59.0513 4.59071 66.1822 0 73.9732 0H1224.6C1233.11 0 1240.72 5.43591 1243.45 13.4977C1304.19 192.576 1306.74 296.292 1243.69 466.083C1240.81 473.85 1233.35 479 1225.06 479H74.6973C66.539 479 59.1702 474.001 56.1664 466.415C-11.5557 295.406 -25.4489 192.635 55.8579 11.6972Z" fill="url(#srv_bg_stroke1)"/>
-                            <path d="M56.3139 11.9021C59.4262 4.97613 66.3781 0.5 73.9732 0.5H1224.6C1232.9 0.5 1240.32 5.80011 1242.98 13.6583C1273.34 103.174 1289.15 173.815 1289.49 243.276C1289.84 312.733 1274.73 381.047 1243.22 465.909C1240.41 473.479 1233.14 478.5 1225.06 478.5H74.6973C66.7437 478.5 59.5595 473.625 56.6312 466.231C22.7761 380.741 2.39907 312.363 0.62616 242.766C-1.14654 173.179 15.6799 102.328 56.3139 11.9021Z" stroke="url(#srv_bg_shape1)" stroke-opacity="0.1"/>
-                            <defs>
-                                <linearGradient id="srv_bg_stroke1" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#060613"/>
-                                    <stop offset="1" stop-color="#151521"/>
-                                </linearGradient>
-                                <linearGradient id="srv_bg_shape1" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="white"/>
-                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                </linearGradient>
-                            </defs>
-                        </svg>                        
-                  </div>
-                  <div class="xb-item--shape-border">
-                      <img src="assets/img/shape/srv_shape.png" alt="">
-                  </div>
-                    <div class="xb-item--holder">
-                        <div class="service-left">
-                            <h2 class="xb-item--title border-effect"><a href="#">Shop ALT</a></h2>
-                            <div class="xb-item--content">Merging UI/UX with marketing ideas to create India’s first thrift store community.</div>
-                            <a href="#" class="thm-btn thm-btn--anim">
-                                <span class="btn-shape">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="203" height="68" viewBox="0 0 203 68" fill="none" preserveAspectRatio="none">
-                                    <path d="M5.16873 4.91568C5.692 2.06786 8.17444 0 11.0699 0H192.577C195.559 0 198.089 2.19074 198.515 5.14266L201.893 28.5403C202.324 31.5288 202.331 34.5632 201.912 37.5534L198.497 61.9251C198.081 64.8882 195.547 67.0925 192.555 67.0925H11.0966C8.18925 67.0925 5.70023 65.0081 5.18979 62.1459L1.01714 38.7489C0.344515 34.9773 0.354618 31.1156 1.04697 27.3476L5.16873 4.91568Z" fill="#C4EF17"></path>
-                                  </svg>
-                                </span>
-                                <div class="btn-anim-wrap">
-                                    <span class="button-text">See how we did it</span>
-                                    <span class="button-text">See how we did it</span>
-                                </div>
-                                <span class="icon"><img src="assets/img/icon/arrow_right3.svg" alt=""></span>
-                            </a>
-                        </div>
-                        <div class="service-right">
-                            <img src="assets/img/searvice/srv_02.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="service-wrapper ul_li wow fadeInUp" data-wow-duration=".7s">
-                    <div class="xb-item--shape">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1290" height="479" viewBox="0 0 1290 479" fill="none" preserveAspectRatio="none">
-                            <path d="M55.8579 11.6972C59.0513 4.59071 66.1822 0 73.9732 0H1224.6C1233.11 0 1240.72 5.43591 1243.45 13.4977C1304.19 192.576 1306.74 296.292 1243.69 466.083C1240.81 473.85 1233.35 479 1225.06 479H74.6973C66.539 479 59.1702 474.001 56.1664 466.415C-11.5557 295.406 -25.4489 192.635 55.8579 11.6972Z" fill="url(#srv_bg_stroke2)"/>
-                            <path d="M56.3139 11.9021C59.4262 4.97613 66.3781 0.5 73.9732 0.5H1224.6C1232.9 0.5 1240.32 5.80011 1242.98 13.6583C1273.34 103.174 1289.15 173.815 1289.49 243.276C1289.84 312.733 1274.73 381.047 1243.22 465.909C1240.41 473.479 1233.14 478.5 1225.06 478.5H74.6973C66.7437 478.5 59.5595 473.625 56.6312 466.231C22.7761 380.741 2.39907 312.363 0.62616 242.766C-1.14654 173.179 15.6799 102.328 56.3139 11.9021Z" stroke="url(#srv_bg_shape2)" stroke-opacity="0.1"/>
-                            <defs>
-                                <linearGradient id="srv_bg_stroke2" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#060613"/>
-                                    <stop offset="1" stop-color="#151521"/>
-                                </linearGradient>
-                                <linearGradient id="srv_bg_shape2" x1="645" y1="0" x2="645" y2="479" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="white"/>
-                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                </linearGradient>
-                            </defs>
-                        </svg>      
-                    </div>
-                    <div class="xb-item--shape-border">
-                        <img src="assets/img/shape/srv_shape.png" alt="">
-                    </div>
-                    <div class="xb-item--holder">
-                        <div class="service-left">
-                            <h2 class="xb-item--title border-effect"><a href="#">INJA Wellness</a></h2>
-                            <div class="xb-item--content">Revitalized Strategy Nurtures a 3000 Strong Customer Growth.</div>
-                            <a href="#" class="thm-btn thm-btn--anim">
-                                <span class="btn-shape">
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="203" height="68" viewBox="0 0 203 68" fill="none" preserveAspectRatio="none">
-                                    <path d="M5.16873 4.91568C5.692 2.06786 8.17444 0 11.0699 0H192.577C195.559 0 198.089 2.19074 198.515 5.14266L201.893 28.5403C202.324 31.5288 202.331 34.5632 201.912 37.5534L198.497 61.9251C198.081 64.8882 195.547 67.0925 192.555 67.0925H11.0966C8.18925 67.0925 5.70023 65.0081 5.18979 62.1459L1.01714 38.7489C0.344515 34.9773 0.354618 31.1156 1.04697 27.3476L5.16873 4.91568Z" fill="#C4EF17"></path>
-                                  </svg>
-                                </span>
-                                <div class="btn-anim-wrap">
-                                    <span class="button-text">See how we did it</span>
-                                    <span class="button-text">See how we did it</span>
-                                </div>
-                                <span class="icon"><img src="assets/img/icon/arrow_right3.svg" alt=""></span>
-                            </a>
-                        </div>
-                        <div class="service-right">
-                            <img src="assets/img/searvice/srv_03.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- service end -->
-           <!--  story start -->
-        <section class="story pt-145 pos-rel">
-            <div class="xb-sec-title-border xb_trigger"></div>
-            <div class="container">
-             
-                 <div class="section-title section-title--two section-title--white mb-50">
-                    <span class="sub-title wow fadeInRight" data-wow-duration=".7s">Stories</span>
-                    <div class="section-title__inner pos-rel">
-                        <h3 class="title xb-split-text split-in-right">SUCCESS STORY</h3>
-                        <span class="number">2</span>
-                    </div>
-                 </div>
-                <div class="row justify-content-center mt-none-30">
-                    <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
-                        <div class="xb-story text-center wow fadeInUp" data-wow-duration=".7s">
-                            <div class="xb-item--shape xb-svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 598" fill="none" preserveAspectRatio="none">
-                                    <path d="M0 54.2449C0 45.6582 5.49251 38.0084 13.6594 35.3564C160.806 -12.4259 249.083 -11.1632 396.187 35.425C404.432 38.0361 410 45.7236 410 54.3717V545.835C410 554.596 404.292 562.355 395.9 564.871C249.109 608.878 160.852 609.202 14.0593 564.89C5.68765 562.363 0 554.613 0 545.869V54.2449Z" fill="url(#paint0_linear_144_245)"/>
-                                    <path d="M0.5 54.2449C0.5 45.8721 5.85555 38.4162 13.8139 35.8319C87.3579 11.9503 146.158 0.335542 204.938 0.501758C263.718 0.667978 322.509 12.6156 396.036 35.9017C404.071 38.4462 409.5 45.9391 409.5 54.3717V545.835C409.5 554.378 403.934 561.94 395.757 564.392C322.387 586.387 263.676 597.457 204.98 597.5C146.284 597.543 87.5736 586.559 14.2038 564.411C6.04582 561.948 0.5 554.396 0.5 545.869V54.2449Z" stroke="url(#paint1_linear_144_245)" stroke-opacity="0.1"/>
-                                    <defs>
-                                        <linearGradient id="paint0_linear_144_245" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#060613"/>
-                                            <stop offset="1" stop-color="#151521"/>
-                                        </linearGradient>
-                                        <linearGradient id="paint1_linear_144_245" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="white"/>
-                                            <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                        </linearGradient>
-                                    </defs>
-                                </svg>                              
-                            </div>
-                            <div class="xb-item--line-shape">
-                                <img src="assets/img/shape/str_shape.png" alt="">
-                            </div>
-                            <div class="xb-item--holder">
-                                <div class="xb-item--image">
-                                    <img src="assets/img/story/img_01.png" alt="">
-                                </div>
-                                <h3 class="xb-item--title border-effect-2"><a href="#!">UNBENCH onboards <br> partner’s Devs for a project <br> that raised $6.5M Series A</a></h3>
-                                <div class="xb-item--link-inner">
-                                    <a href="#!" class="xb-item--link"><i class="far fa-long-arrow-up"></i><span class="xb-svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 48" fill="none" preserveAspectRatio="none">
-                                        <path d="M5.02153 4.43458C5.96248 2.03868 8.31753 0.5 10.9116 0.5H49.3176C52.0998 0.5 54.5817 2.26162 55.3669 4.9041C59.4723 18.7196 59.1586 28.358 55.2626 42.8516C54.5201 45.6138 51.9784 47.5 49.101 47.5H10.777C8.24614 47.5 5.93564 46.0375 4.96528 43.7247C2.01951 36.7035 0.516219 30.7738 0.500131 24.6691C0.484037 18.5621 1.95611 12.24 5.02153 4.43458Z" stroke="white"/>
-                                      </svg></span></a>
-                                      <div class="clearfix"></div>
-                                    <a href="" class="xb-item--readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
-                        <div class="xb-story text-center wow fadeInUp" data-wow-delay="150ms" data-wow-duration=".7s">
-                            <div class="xb-item--shape xb-svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 598" fill="none" preserveAspectRatio="none">
-                                    <path d="M0 54.2449C0 45.6582 5.49251 38.0084 13.6594 35.3564C160.806 -12.4259 249.083 -11.1632 396.187 35.425C404.432 38.0361 410 45.7236 410 54.3717V545.835C410 554.596 404.292 562.355 395.9 564.871C249.109 608.878 160.852 609.202 14.0593 564.89C5.68765 562.363 0 554.613 0 545.869V54.2449Z" fill="url(#paint0_linear_144_2452)"/>
-                                    <path d="M0.5 54.2449C0.5 45.8721 5.85555 38.4162 13.8139 35.8319C87.3579 11.9503 146.158 0.335542 204.938 0.501758C263.718 0.667978 322.509 12.6156 396.036 35.9017C404.071 38.4462 409.5 45.9391 409.5 54.3717V545.835C409.5 554.378 403.934 561.94 395.757 564.392C322.387 586.387 263.676 597.457 204.98 597.5C146.284 597.543 87.5736 586.559 14.2038 564.411C6.04582 561.948 0.5 554.396 0.5 545.869V54.2449Z" stroke="url(#paint1_linear_144_2452)" stroke-opacity="0.1"/>
-                                    <defs>
-                                        <linearGradient id="paint0_linear_144_2452" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#060613"/>
-                                            <stop offset="1" stop-color="#151521"/>
-                                        </linearGradient>
-                                        <linearGradient id="paint1_linear_144_2452" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="white"/>
-                                            <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                        </linearGradient>
-                                    </defs>
-                                </svg>                                 
-                            </div>
-                            <div class="xb-item--line-shape">
-                                <img src="assets/img/shape/str_shape.png" alt="">
-                            </div>
-                            <div class="xb-item--holder">
-                                <div class="xb-item--image">
-                                    <img src="assets/img/story/img_02.png" alt="">
-                                </div>
-                                <h3 class="xb-item--title border-effect-2"><a href="#!">ovIX onboards partner’s Devs for a project that raised $6.5M Series A</a></h3>
-                                <div class="xb-item--link-inner">
-                                    <a href="#!" class="xb-item--link"><i class="far fa-long-arrow-up"></i><span class="xb-svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 48" fill="none" preserveAspectRatio="none">
-                                        <path d="M5.02153 4.43458C5.96248 2.03868 8.31753 0.5 10.9116 0.5H49.3176C52.0998 0.5 54.5817 2.26162 55.3669 4.9041C59.4723 18.7196 59.1586 28.358 55.2626 42.8516C54.5201 45.6138 51.9784 47.5 49.101 47.5H10.777C8.24614 47.5 5.93564 46.0375 4.96528 43.7247C2.01951 36.7035 0.516219 30.7738 0.500131 24.6691C0.484037 18.5621 1.95611 12.24 5.02153 4.43458Z" stroke="white"/>
-                                      </svg></span></a>
-                                      <div class="clearfix"></div>
-                                    <a href="" class="xb-item--readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-8 mt-30">
-                        <div class="xb-story text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration=".7s">
-                            <div class="xb-item--shape xb-svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 598" fill="none" preserveAspectRatio="none">
-                                    <path d="M0 54.2449C0 45.6582 5.49251 38.0084 13.6594 35.3564C160.806 -12.4259 249.083 -11.1632 396.187 35.425C404.432 38.0361 410 45.7236 410 54.3717V545.835C410 554.596 404.292 562.355 395.9 564.871C249.109 608.878 160.852 609.202 14.0593 564.89C5.68765 562.363 0 554.613 0 545.869V54.2449Z" fill="url(#paint0_linear_144_2453)"/>
-                                    <path d="M0.5 54.2449C0.5 45.8721 5.85555 38.4162 13.8139 35.8319C87.3579 11.9503 146.158 0.335542 204.938 0.501758C263.718 0.667978 322.509 12.6156 396.036 35.9017C404.071 38.4462 409.5 45.9391 409.5 54.3717V545.835C409.5 554.378 403.934 561.94 395.757 564.392C322.387 586.387 263.676 597.457 204.98 597.5C146.284 597.543 87.5736 586.559 14.2038 564.411C6.04582 561.948 0.5 554.396 0.5 545.869V54.2449Z" stroke="url(#paint1_linear_144_2453)" stroke-opacity="0.1"/>
-                                    <defs>
-                                        <linearGradient id="paint0_linear_144_2453" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#060613"/>
-                                            <stop offset="1" stop-color="#151521"/>
-                                        </linearGradient>
-                                        <linearGradient id="paint1_linear_144_2453" x1="205" y1="0" x2="205" y2="598" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="white"/>
-                                            <stop offset="1" stop-color="white" stop-opacity="0"/>
-                                        </linearGradient>
-                                    </defs>
-                                </svg> 
-                            </div>
-                            <div class="xb-item--line-shape">
-                                <img src="assets/img/shape/str_shape.png" alt="">
-                            </div>
-                            <div class="xb-item--holder">
-                                <div class="xb-item--image">
-                                    <img src="assets/img/story/img_03.png" alt="">
-                                </div>
-                                <h3 class="xb-item--title border-effect-2"><a href="#!">UNBENCH onboards <br> partner’s Devs for a project <br> that raised $6.5M Series A</a></h3>
-                                <div class="xb-item--link-inner">
-                                    <a href="#!" class="xb-item--link"><i class="far fa-long-arrow-up"></i><span class="xb-svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 48" fill="none" preserveAspectRatio="none">
-                                        <path d="M5.02153 4.43458C5.96248 2.03868 8.31753 0.5 10.9116 0.5H49.3176C52.0998 0.5 54.5817 2.26162 55.3669 4.9041C59.4723 18.7196 59.1586 28.358 55.2626 42.8516C54.5201 45.6138 51.9784 47.5 49.101 47.5H10.777C8.24614 47.5 5.93564 46.0375 4.96528 43.7247C2.01951 36.7035 0.516219 30.7738 0.500131 24.6691C0.484037 18.5621 1.95611 12.24 5.02153 4.43458Z" stroke="white"/>
-                                      </svg></span></a>
-                                      <div class="clearfix"></div>
-                                    <a href="" class="xb-item--readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="story-btn text-center mt-60 wow fadeInUp" data-wow-delay="400ms" data-wow-duration=".7s">
-                        <a href="#" class="thm-btn thm-btn--anim">
-                            <span class="btn-shape">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="203" height="68" viewBox="0 0 203 68" fill="none" preserveAspectRatio="none">
-                                <path d="M5.16873 4.91568C5.692 2.06786 8.17444 0 11.0699 0H192.577C195.559 0 198.089 2.19074 198.515 5.14266L201.893 28.5403C202.324 31.5288 202.331 34.5632 201.912 37.5534L198.497 61.9251C198.081 64.8882 195.547 67.0925 192.555 67.0925H11.0966C8.18925 67.0925 5.70023 65.0081 5.18979 62.1459L1.01714 38.7489C0.344515 34.9773 0.354618 31.1156 1.04697 27.3476L5.16873 4.91568Z" fill="#C4EF17"/>
-                              </svg>
-                            </span>
-                            <div class="btn-anim-wrap">
-                                <span class="button-text">OUR stories</span>
-                                <span class="button-text">OUR stories</span>
-                            </div>
-                            <span class="icon"><img src="assets/img/icon/arrow_right3.svg" alt=""></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  story end -->
-           <!-- portfolio area start  -->
-           <section class="portfolio pt-125 pos-rel">
-            <div class="container">
-                <div class="section-title port-sec-title mb-60">
-                    <div>
-                        <span class="sub-content wow fadeInRight" data-wow-duration=".7s">PORTFOLIO</span>
-                        <h3 class="title xb-split-text split-in-right">Selected Works</h3>
-                    </div>
-                </div>
-                <div class="portfolio-slider swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide xb-portfolio">
-                            <div class="xb-item--img">
-                                <a href="#!"><img src="assets/img/portfolio/port_01.jpg" alt=""> </a>
-                            </div>
-                            <h3 class="xb-item--title border-effect-2"><a href="#!">Illustration & Visual Design</a></h3>
-                            <a class="xb-overlay" href="#"></a>
-                        </div>
-                        <div class="swiper-slide xb-portfolio">
-                            <div class="xb-item--img">
-                                <a href="#!"><img src="assets/img/portfolio/port_02.jpg" alt=""> </a>
-                            </div>
-                            <h3 class="xb-item--title border-effect-2"><a href="#!">Apple 3D Design</a></h3>
-                            <a class="xb-overlay" href="#"></a>
-                        </div>
-                        <div class="swiper-slide xb-portfolio">
-                            <div class="xb-item--img">
-                                <a href="#!"><img src="assets/img/portfolio/port_01.jpg" alt=""> </a>
-                            </div>
-                            <h3 class="xb-item--title border-effect-2"><a href="#!">Illustration & Visual Design</a></h3>
-                            <a class="xb-overlay" href="#"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- portfolio area end  -->
+      
+          
         <!-- counter section end  -->
         <div class="project-section">
             <div class="container">
-                <div class="row align-items-end mb-20">
+               <div class="row align-items-end mb-20">
                     <div class="col-lg-5">
                         <div class="section-title mb-30">
-                            <span class="sub-title wow fadeInRight" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-name: fadeInRight;">Core Services</span>
+                            <span class="sub-title wow fadeInRight" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-name: fadeInRight;">Marketing Services</span>
                             <h3 class="title xb-split-text split-in-right" style="perspective: 100px;"><div class="split-line" style="display: block; text-align: start; position: relative;"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">D</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">s</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">v</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">O</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">r</div></div> </div><div class="split-line" style="display: block; text-align: start; position: relative;"><span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">C</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">p</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">a</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">b</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">s</div></div></span></div></h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="single-project-box">
+                        <div class="single-project-box xb-img-reveal-item"
+                        data-title="Digital Strategy & Consulting" data-fx="1">
                             <div class="project-thumb">
                                 <img src="assets/img/resources/pr1.jpg" alt="">
                                 <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-project-box">
+                        <div class="single-project-box xb-img-reveal-item" data-title="Advertising & Media Buying" data-fx="1">
                             <div class="project-thumb">
                                 <img src="assets/img/resources/pr2.jpg" alt="">
                                 <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-project-box">
+                        <div class="single-project-box xb-img-reveal-item"  data-title="Search & App Optimization" data-fx="1">
                             <div class="project-thumb">
                                 <img src="assets/img/resources/pr3.jpg" alt="">
                                 <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-project-box">
-                            <div class="project-thumb">
-                                <img src="assets/img/resources/pr4.jpg" alt="">
-                                <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-project-box style-two">
-                            <div class="project-thumb">
-                                <img src="assets/img/resources/pr5.png" alt="">
-                                <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>       
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-project-box">
-                            <div class="project-thumb">
-                                <img src="assets/img/resources/pr2.jpg" alt="">
-                                <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="single-project-box">
+                        <div class="single-project-box xb-img-reveal-item"  data-title="Website, E-commerce & App Development" data-fx="1">
                             <div class="project-thumb">
                                 <img src="assets/img/resources/pr1.jpg" alt="">
                                 <div class="project-content">
-                                    <h5>Campaign</h5>
-                                    <h2>SEO Consulting</h2>
-                                    <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="single-project-box xb-img-reveal-item"
+                        data-title="Content & Creative Services" data-fx="1">
+                            <div class="project-thumb">
+                                <img src="assets/img/resources/pr1.jpg" alt="">
+                                <div class="project-content">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-project-box xb-img-reveal-item"  data-title="Social Media & Online Presence" data-fx="1">
+                            <div class="project-thumb">
+                                <img src="assets/img/resources/pr4.jpg" alt="">
+                                <div class="project-content">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-project-box style-two xb-img-reveal-item"  data-title="Performance & Analytics" data-fx="1">
+                            <div class="project-thumb">
+                                <img src="assets/img/resources/pr5.png" alt="">
+                                <div class="project-content">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>       
+                    <div class="col-lg-8">
+                        <div class="single-project-box xb-img-reveal-item"  data-title="Branding & Advertising" data-fx="1">
+                            <div class="project-thumb">
+                                <img src="assets/img/resources/pr1.jpg" alt="">
+                                <div class="project-content">
+                                    
                                 </div>
                             </div>
                         </div>
@@ -762,7 +431,57 @@
                 </div>
             </div>
         </div>
-
+ <!-- portfolio area start  -->
+ <section class="portfolio pt-125 pb-150 pos-rel">
+    <div class="container">
+        <div class="section-title port-sec-title mb-60">
+            <div>
+                <span class="sub-content wow fadeInRight" data-wow-duration=".7s">PORTFOLIO</span>
+                <h3 class="title xb-split-text split-in-right">Selected Works</h3>
+            </div>
+        </div>
+        <div class="portfolio-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide xb-portfolio">
+                    <div class="xb-item--img">
+                        <a href="#!"><img src="assets/img/portfolio/port_01.jpg" alt=""> </a>
+                    </div>
+                    <h3 class="xb-item--title border-effect-2"><a href="#!">Illustration & Visual Design</a></h3>
+                    <a class="xb-overlay" href="#"></a>
+                </div>
+                <div class="swiper-slide xb-portfolio">
+                    <div class="xb-item--img">
+                        <a href="#!"><img src="assets/img/portfolio/port_02.jpg" alt=""> </a>
+                    </div>
+                    <h3 class="xb-item--title border-effect-2"><a href="#!">Apple 3D Design</a></h3>
+                    <a class="xb-overlay" href="#"></a>
+                </div>
+                <div class="swiper-slide xb-portfolio">
+                    <div class="xb-item--img">
+                        <a href="#!"><img src="assets/img/portfolio/port_01.jpg" alt=""> </a>
+                    </div>
+                    <h3 class="xb-item--title border-effect-2"><a href="#!">Illustration & Visual Design</a></h3>
+                    <a class="xb-overlay" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio area end  -->
+ <!-- project section start  -->
+ <section class="cta cta-bg pos-rel pt-115 pb-90">
+    <div class="cta-bg-inner ukiyo img-size-1 img-position-l"
+    data-u-speed=".6" data-background="assets/img/bg/project_bg.jpg"></div>
+    <div class="container">
+        <div class="row">
+            <div class="cta-title text-center mb-75">
+                <h2 class="title">Do You Have Any <br> <span> Project?</span></h2>
+                <a href="contact.html">Get In Touch <span><img src="assets/img/icon/arrow_right2.svg" alt=""></span></a>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- project section end  -->
         <!-- marquee section start  -->
         <section class="marquee marquee-space z-3 pt-75 pb-90">
             <div class="xb-marquee marquee-left">

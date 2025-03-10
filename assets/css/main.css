@@ -10091,6 +10091,13 @@ span.horizontal-shake {
 .faq-btn span{
   background-color: #B026FF;
 }
+.thm-btn .purple .btn-shape svg path{
+  fill: #B026FF !important;
+  color: #FFFFFF;
+}
+.thm-btn--anim .purple .btn-anim-wrap .button-text{
+  color: #FFF;
+}
 @media screen and (max-width: 600px) {
   .hide-xl {
     visibility: hidden;

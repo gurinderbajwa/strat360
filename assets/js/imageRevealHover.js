@@ -43,7 +43,6 @@
             `<div class="xb-img-reveal-wrapper__inner">
                 <div class="xb-img-reveal-wrapper__img">
                     <div class="xb-hover-wrapper">
-                        <span class="xb-hover-cat">${this.DOM.el.dataset.cat ? this.DOM.el.dataset.cat: ''}</span>
                         <h3 class="xb-hover-title">${this.DOM.el.dataset.title ? this.DOM.el.dataset.title: ''}</h3>
                     </div>
                 </div>
