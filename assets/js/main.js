@@ -919,14 +919,14 @@ async function fetchHtmlAsText(url) {
 
 async function renderServices(){
 	//const contentDiv = document.getElementById("render-div");
-    //contentDiv.innerHTML = await fetchHtmlAsText("Digital-stratergy.html");
+    contentDiv.innerHTML = await fetchHtmlAsText("Digital-stratergy.html");
 	ScrollSmoother.create({
 		wrapper: '#smooth-wrapper',
 		content: '#smooth-content',
 		smooth: 1,
 	  });
 	$('#popup-trigger').click();
-	//createScroll();
+	createScroll();
 }
 
 function createScroll(){

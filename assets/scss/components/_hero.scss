@@ -208,7 +208,7 @@
             width: 105px;
             height: 105px;
             @include border-radius(50%);
-            border: 1px solid var(--color-primary);
+            //border: 1px solid var(--color-primary);
             background-color: #1D2026;
             z-index: 2;
             @include center;
