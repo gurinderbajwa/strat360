@@ -4956,8 +4956,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     padding-top: 100px;
     padding-bottom: 60px; } }
 .marquee-two .db-marquee {
-  background: var(--color-primary);
-  transform: rotate(-1.081deg); }
+  background: var(--color-primary); }
   .marquee-two .db-marquee .marquee-item {
     font-size: 24px;
     color: #000;
