@@ -3855,7 +3855,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     display: inline-block; }
 .hero__bg-blur {
   right: -25px;
-  bottom: 9%;
+  bottom: 0%;
   position: absolute; }
 .hero__content-two .xb-item--title {
   font-size: 80px;
