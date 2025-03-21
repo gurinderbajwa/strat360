@@ -6763,13 +6763,12 @@ blockquote {
     margin-top: 40px; } }
 
 .xb-portfolio {
-  position: relative; }
+  position: relative;
+padding-right: 10px;
+}
   .xb-portfolio:hover .xb-item--img {
     outline-color: var(--color-primary); }
-    .xb-portfolio:hover .xb-item--img img {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1); }
+    .xb-portfolio:hover .xb-item--img img { }
   .xb-portfolio:hover .border-effect-2 a {
     background-size: 100% 100%;
     color: inherit; }
@@ -10147,16 +10146,7 @@ span.horizontal-shake {
 .hero-main-img{
   width: 100%;
 }
-/* .hero-main-img::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
-  z-index: 1;
-} */
+
  
 
 
