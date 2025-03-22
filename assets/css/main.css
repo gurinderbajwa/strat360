@@ -4954,10 +4954,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     padding-top: 100px;
     padding-bottom: 60px; } }
 .marquee-two .db-marquee {
-  background: var(--color-primary); }
+  background: #000 }
   .marquee-two .db-marquee .marquee-item {
     font-size: 24px;
-    color: #000;
+    color: var(--color-primary);
     font-weight: 400;
     line-height: 40.5px;
     letter-spacing: -0.48px;
@@ -4970,7 +4970,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       content: '';
       height: 6px;
       width: 6px;
-      background: #000;
+      background: var(--color-primary);
       left: -16px;
       top: 17px;
       border-radius: 50px;
@@ -5389,7 +5389,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 /*  10. cta
 /*----------------------------------------*/
 .cta-bg {
-  min-height: 938px;
+  min-height: 600px;
   width: 100%;
   padding: 223px 0;
   position: relative; }
@@ -5461,7 +5461,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(357deg, #000 9.75%, rgba(0, 0, 0, 0.7) 62.14%, rgba(0, 0, 0, 0) 110.96%); }
+    background: linear-gradient(357deg, #000 20%, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0) 200%); }
 
 .cta-bg-inner {
   position: absolute;
@@ -10020,7 +10020,7 @@ abbr[title] {
   bottom: 0;
   width: 100%;
   height: 0;
-  background: linear-gradient(0deg, #ffef6a 0%, #bef741 100%);
+  background: linear-gradient(0deg, #d8f026 30%, #ffffff 80%);
   opacity: .95;
   transition: .5s;
   border-radius: 10px;
@@ -10222,3 +10222,12 @@ span.horizontal-shake {
   filter: invert(100%) sepia(10%) saturate(100%) hue-rotate(18deg) brightness(0%) contrast(100%) !important;
   color: #000 !important;
 }
+.marquee-img{
+  background: var(--color-primary) !important;
+}
+.marquee-img .marquee-item{
+  margin-right: 0 !important;
+}
+.marquee-img .marquee-item::before {
+display: none !important;
+} 

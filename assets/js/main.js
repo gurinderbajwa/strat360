@@ -689,6 +689,15 @@
 		pauseOnHover: false,
 		startVisible: true,
 	});
+	$('.marquee-img').marquee({
+		speed: 100,
+		gap: 1,
+		delayBeforeStart: 0,
+		direction: 'left',
+		duplicated: true,
+		pauseOnHover: false,
+		startVisible: true,
+	});
 	$('.marquee-right').marquee({
 		speed: 50,
 		gap: 0,
