@@ -10231,3 +10231,6 @@ span.horizontal-shake {
 .marquee-img .marquee-item::before {
 display: none !important;
 } 
+.xb-marquee-item img{
+  width: 90%;
+}
