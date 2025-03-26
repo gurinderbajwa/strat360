@@ -4905,7 +4905,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   align-items: center; }
 
 .xb-marquee {
-  padding: 52px 0;
+  padding: 28px 0;
   margin-left: -10px;
   margin-right: -10px; }
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -10232,5 +10232,5 @@ span.horizontal-shake {
 display: none !important;
 } 
 .xb-marquee-item img{
-  width: 90%;
+  width: 70%;
 }
