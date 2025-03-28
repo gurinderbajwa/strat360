@@ -697,7 +697,23 @@
 <script src="assets/js/lenis.js"></script>
 <script src="assets/js/moment.min.js"></script>
 <script src="assets/js/main.js"></script>
-
+<script type="text/javascript">
+    $( document ).ready(function() {
+        if (location.href.indexOf("#") != -1) {
+            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+                if(hash=="Services"){
+                    gotoLink('project-section');
+                    var y = $(window).scrollTop(); 
+                    $('html, body').animate({scrollTop: '+=150px'}, 500);
+                }
+                else if(hash=="Projects"){
+                    gotoLink('portfolio-section');
+                    var y = $(window).scrollTop(); 
+                    $('html, body').animate({scrollTop: '+=150px'}, 500);
+                }
+            }
+        });
+</script>
 </body>
 
 </html>
