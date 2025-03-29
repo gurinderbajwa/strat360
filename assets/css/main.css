@@ -10234,3 +10234,12 @@ display: none !important;
 .xb-marquee-item img{
   width: 70%;
 }
+.section-title .sub-title::before 
+{
+  height: 15px;
+  width: 15px;
+}
+.contact-form-inner .contact-form .xb-item--textarea
+{
+  margin-left: 0 !important;
+}

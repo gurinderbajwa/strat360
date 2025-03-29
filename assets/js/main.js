@@ -922,27 +922,3 @@ function gotoLink(link) {
 	}
 }
 
-async function fetchHtmlAsText(url) {
-    return await (await fetch(url)).text();
-}
-
-async function renderServices(){
-	//const contentDiv = document.getElementById("render-div");
-    contentDiv.innerHTML = await fetchHtmlAsText("Digital-stratergy.html");
-	ScrollSmoother.create({
-		wrapper: '#smooth-wrapper',
-		content: '#smooth-content',
-		smooth: 1,
-	  });
-	$('#popup-trigger').click();
-	createScroll();
-}
-
-function createScroll(){
-	ScrollSmoother.create({
-		wrapper: '#smooth-wrapper',
-		content: '#smooth-content',
-		smooth: 1,
-	  });
-}
-
