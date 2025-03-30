@@ -10124,6 +10124,9 @@ span.horizontal-shake {
   clear: both;
   display: none;
 }
+.mobile-sticky{
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .hide-xl {
     visibility: hidden;
@@ -10137,6 +10140,28 @@ span.horizontal-shake {
   .contact-form .xb-item--field label{
     margin-bottom: 0 !important;
     font-size: 12px !important;
+  }
+  .contact-form .xb-item--field{
+    padding-top: 20px;
+  }
+  .mobile-sticky{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 63px;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: black;
+    text-align: center;
+    padding-top: 16px;
+    z-index: 999 !important;
+    display: block !important;
+  }
+  .mobile-sticky i{
+    transform: rotate(90deg);
+  } 
+  .xb-backtotop.active{
+    bottom: 80px !important;
   }
 }
 .pa-0{
