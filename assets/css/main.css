@@ -10134,6 +10134,10 @@ span.horizontal-shake {
     clear: both;
     display: block !important;
   }
+  .contact-form .xb-item--field label{
+    margin-bottom: 0 !important;
+    font-size: 12px !important;
+  }
 }
 .pa-0{
   padding: 0% !important;
@@ -10154,9 +10158,6 @@ span.horizontal-shake {
 .hero-main-img{
   width: 100%;
 }
-
- 
-
 
 @-webkit-keyframes scroll {
   0% {
