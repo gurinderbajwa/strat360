@@ -9427,7 +9427,7 @@ abbr[title] {
   left: 0;
   text-align: center;
   opacity: 1;
-  z-index: 102;
+  z-index: 1000;
   overflow: hidden; }
 
 .overlay-menu .close {
