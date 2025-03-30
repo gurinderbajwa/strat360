@@ -10172,6 +10172,9 @@ span.horizontal-shake {
   body{
     overflow: scroll !important;
   }
+  .contact-form-inner .contact-form .xb-item--field textarea{
+    min-height: 100px !important;
+  }
 }
 .pa-0{
   padding: 0% !important;
