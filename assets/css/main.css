@@ -10163,6 +10163,15 @@ span.horizontal-shake {
   .xb-backtotop.active{
     bottom: 80px !important;
   }
+  .overlay-wrap{
+    z-index: 99999 !important;
+  }
+  .xb-backtotop .scroll{
+    display: none;
+  }
+  body{
+    overflow: scroll !important;
+  }
 }
 .pa-0{
   padding: 0% !important;
