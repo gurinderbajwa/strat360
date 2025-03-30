@@ -10120,11 +10120,19 @@ span.horizontal-shake {
 .thm-btn--anim .purple .btn-anim-wrap .button-text{
   color: #FFF;
 }
+.hide-mobile {
+  clear: both;
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .hide-xl {
     visibility: hidden;
     clear: both;
     display: none;
+  }
+  .hide-mobile {
+    clear: both;
+    display: block !important;
   }
 }
 .pa-0{
@@ -10244,5 +10252,5 @@ display: none !important;
   margin-left: 0 !important;
 }
 .contact-form .xb-item--field{
-  
+
 }
