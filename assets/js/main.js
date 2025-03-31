@@ -890,12 +890,6 @@
 	}
 	setInterval(updateClock, 1000);
 	updateClock();
-	
-
-	
-	
-	
-
 
 })(jQuery);
 

@@ -10136,6 +10136,15 @@ span.horizontal-shake {
 .m-mt-100 {
   margin-top: 100px !important;
 }
+.m-pb-90{
+  padding-bottom: 90px;
+}
+.cta-d{
+  display: block !important;
+}
+.cta-m{
+  display: none !important;
+}
 @media screen and (max-width: 600px) {
   .hide-xl {
     visibility: hidden;
@@ -10198,6 +10207,18 @@ span.horizontal-shake {
   }
   .m-mt-100 {
     margin-top: 50px !important;
+  }
+  .m-pb-90{
+    padding-bottom: 0 !important;
+  }
+  .marquee-two{
+    padding-top:60px !important;
+  }
+  .cta-d{
+    display: none !important;
+  }
+  .cta-m{
+    display: block !important;
   }
 }
 .pa-0{
@@ -10312,7 +10333,4 @@ display: none !important;
 .contact-form-inner .contact-form .xb-item--textarea
 {
   margin-left: 0 !important;
-}
-.contact-form .xb-item--field{
-
 }
