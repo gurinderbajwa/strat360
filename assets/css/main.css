@@ -10127,6 +10127,15 @@ span.horizontal-shake {
 .mobile-sticky{
   display: none;
 }
+.m-pb-150 {
+  margin-bottom: 150px !important;
+}
+.m-pb-100 {
+  margin-bottom: 100px !important;
+}
+.m-mt-100 {
+  margin-top: 100px !important;
+}
 @media screen and (max-width: 600px) {
   .hide-xl {
     visibility: hidden;
@@ -10174,6 +10183,21 @@ span.horizontal-shake {
   }
   .contact-form-inner .contact-form .xb-item--field textarea{
     min-height: 100px !important;
+  }
+  .header-logo img{
+    width: 60%;
+  }
+  .marquee-item img{
+    height: 450px !important;
+  }
+  .m-pb-150 {
+    margin-bottom: 50px !important;
+  }
+  .m-pb-100 {
+    margin-bottom: 50px !important;
+  }
+  .m-mt-100 {
+    margin-top: 50px !important;
   }
 }
 .pa-0{
