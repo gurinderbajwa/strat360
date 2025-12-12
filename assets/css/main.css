@@ -10220,6 +10220,9 @@ span.horizontal-shake {
   .cta-m{
     display: block !important;
   }
+  .header-logo{
+    width: 70% !important;
+  }
 }
 .pa-0{
   padding: 0% !important;
